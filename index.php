@@ -1,6 +1,3 @@
-<?php
-include_once "./handlers/postgreChecker.handler.php";
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +8,11 @@ include_once "./handlers/postgreChecker.handler.php";
 </head>
 
 <body>
-    <h1>Database Connection Status:</h1>
+    <h1>Database Status:</h1>
+
+<?php
+include_once "./handlers/postgreChecker.handler.php";
+?>
 </body>
 
 </html>
